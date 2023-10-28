@@ -1,0 +1,22 @@
+/Hack-The-Box/Starting-Point/MEOW
+
+
+In order to hack this or any machine you need a dice of your own.  You should avoid using you primary machine because their will be a direct link to you (bad in terms of hacking). 
+Additionally you should use a operating system that gives you more "range of motion".  While technically you could use windows or even a chrome book Linux is the ideal choice for 
+its plethora of tools available and overall control of your system.  Considering both you would need a new clean machine right? Not necessarily using a VM (Virtual Machine) #TASK-1 
+this allows us to have a new system that we can use to Hack The Box.  
+
+After Starting the VM in my case KALI Linux a operating system made for hackers we have to connect to the Stating Point VPN so after downloading my will use the TERMINAL #TASK-2 to 
+input our command and connect.
+
+Now we must confirm we are connected so get your target IP(internet protocol) address and use the ping command #TASK-3 (you target IP will most likely be different)
+hitting control C will stop the command and we can see that we are connected and can reach the box by the 0% packet loss
+
+Now we can really start we must learn about are target in order to know how to hack them using the namp command #TASK-4 we can preform a port scan 
+here we have stated to run a scan of our targets IP and it told us port 23 or telnet #TASK-5 is open
+
+when in the command line and you don't know possible arguments you can use --help or man 
+we need to gain entry so why not login -r looks promising
+I tried some common accounts (user,admin and root)and just hit enter instead of inputting a password.   root #TASK-6 was out ticket
+I typed #ls in our telnet shell and saw a flag.txt by typing #cat flag.txt  we got our flag b40abdfe23665f766f9c61ecba8a4c19 copy it and enter it in for #TASK-7
+
