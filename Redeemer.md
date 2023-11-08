@@ -8,9 +8,10 @@ From our scan we can also see the service is Redis [Task #2].
 
 [Task #3] is askes what kind of database is Redis after a quick google search Redis lables its self as a (In-memory
 non-relational database) compared to our two options (In-memory Database) is the correct option.
-In order to connect to the server lets use redis-cli [Task #4] The Command to connect is `$ redis-cli -h {Target-IP} -p 6379`
+In order to connect to the server lets use redis-cli [Task #4] The Command to connect is `$ redis-cli -h {Target-IP} -p 6379`as you can see -h <hostname> and -p <port> [Task #5]
+
 ![Screenshot from 2023-11-08 03-43-44](https://github.com/Elusive-Enigma/Hacking-CTFs/assets/149143123/78afb3f8-5923-4fe0-86f5-da777cfc357f)
-as you can see -h <hostname> and -p <port> [Task #5]
+
 
 ---
 
